@@ -7,7 +7,7 @@ const Logo = ({ imageUrl, logoClass }) => {
     <div className={clsx(logoClass)}>
       <Link to={process.env.PUBLIC_URL + "/"}>
         <img className="" alt="" src={process.env.PUBLIC_URL + imageUrl} style={{height
-      :"10vh",width:"250px"}} />
+      :"10vh",width:"250px",marginTop:"-21px"}} />
       </Link>
     </div>
   );

@@ -24,7 +24,7 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
               {t("Login")}
             </Link>
           </li>
-          {/* <li>
+          <li>
             <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
               {" "}
               {t("Login")}
@@ -165,13 +165,13 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
                 </ul>
               </li>
             </ul>
-          </li> */}
+          </li>
           <li>
             <Link to={process.env.PUBLIC_URL + "/shop-grid-standard"}>
               {t("Signup As Seller")}
             </Link>
           </li>
-          {/* <li>
+          <li>
             <Link to={process.env.PUBLIC_URL + "/"}>
               {t("pages")}
               {sidebarMenu ? (
@@ -263,7 +263,7 @@ const NavMenu = ({ menuWhiteClass, sidebarMenu }) => {
                 </Link>
               </li>
             </ul>
-          </li> */}
+          </li>
           <li>
             <Link to={process.env.PUBLIC_URL + "/contact"}>
               {t("Signup As User")}

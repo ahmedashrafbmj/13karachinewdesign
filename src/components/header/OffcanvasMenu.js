@@ -3,6 +3,8 @@ import clsx from "clsx";
 import { Link } from "react-router-dom";
 import HeaderSocial from "./sub-components/HeaderSocial";
 import NavMenu from "./NavMenu";
+// import "../../../src/assets/scss/_header.scss"
+import './aa.css'
 
 const OffcanvasMenu = ({ activeState, getActiveState }) => {
   return (
@@ -15,9 +17,11 @@ const OffcanvasMenu = ({ activeState, getActiveState }) => {
           <span className="pe-7s-close"></span>
         </button>
       </div>
-      <div className="side-logo">
+      <div className="side-logo aa">
         <Link to={process.env.PUBLIC_URL + "/"}>
-          <img
+       
+          <img className="aa"
+        
             alt=""
             src={process.env.PUBLIC_URL + "/assets/img/logo/logo.png"}
           />
@@ -28,6 +32,8 @@ const OffcanvasMenu = ({ activeState, getActiveState }) => {
 
       {/* header social */}
       <HeaderSocial />
+
+      
     </div>
   );
 };
